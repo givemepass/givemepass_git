@@ -22,7 +22,7 @@ import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
 import android.widget.AdapterView.OnItemClickListener;
-//aaaaaaaaaaaaaaa
+//bbbbbbbbbbbbbbbb
 public class Activity1 extends ActivityGroup {
 	// Keep this in a static variable to make it accessible for all the nesten activities, lets them manipulate the view
 	public static Activity1 group;
