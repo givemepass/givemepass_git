@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Nav>
+	<Metadata>
+		<PubDate>201205091551</PubDate>
+	</Metadata>
+	<Tabbar>
+		<item targetId="menuRoot" text="首頁" icon="icon_home.png" tabicon="tabicon_home.png"/>
+		<item targetId="menuAbout" text="關於凌網" icon="icon_about.png" tabicon="tabicon_about.png"/>
+		<item targetId="menuNews" text="消息與活動" icon="icon_news.png" tabicon="tabicon_news.png"/>
+		<item targetId="menuSolution" text="產品與解決方案" icon="icon_solution.png" tabicon="tabicon_solution.png"/>
+		<item targetId="ctDoneCase" text="成功案例" icon="icon_case.png" tabicon="tabicon_case.png"/>
+		<item targetId="menuInvestor" text="投資人專區" icon="icon_investor.png" tabicon="tabicon_investor.png"/>
+	</Tabbar>
+	<Menu id="menuRoot" menutype="grid">
+		<Node id="menuAbout" text="關於凌網" icon="icon_about.png" menutype="list">
+			<Node id="menuInfo" text="公司資訊" menutype="list">
+				<Node targetId="ctIntro" text="公司簡介" />
+				<Node targetId="ctHR" text="人力資源" />
+				<Node targetId="ctQuality" text="品質與承諾" />
+			</Node>
+			<Node targetId="ctRelated" text="關係企業" />
+			<Node targetId="ctDownload" text="下載專區" />
+		</Node>
+		<Node id="menuNews" text="消息與活動" icon="icon_news.png" notification="(service url)" menutype="list" >
+			<Node targetId="ctNews" text="新聞稿" menutype="list" >
+				<Node targetId="ctIntro" text="1" />
+				<Node targetId="ctHR" text="2" />
+				<Node targetId="ctQuality" text="3" />
+			</Node>	
+			<Node targetId="ctCases" text="接單資訊" />
+			<Node targetId="ctSubscription" text="凌網電子報" />
+		</Node>
+		<Node id="menuSolution" text="產品與解決方案" icon="icon_solution.png" menutype="segment">
+			<Node id="menuSByIndustry" text="依產業選擇" menutype="list">
+				<Node targetId="ct" text="企業用戶解決方案" />
+				<Node targetId="ct" text="政府解決方案" />
+				<Node targetId="ct" text="金融業解決方案" />
+			</Node>
+			<Node id="menuSByService" text="依服務選擇" menutype="list">
+				<Node targetId="ct" text="消費金融" />
+				<Node targetId="ct" text="全球資訊入口網站" />
+				<Node targetId="ct" text="數位典藏" />
+				<Node targetId="ct" text="知識管理" />
+				<Node targetId="ct" text="圖書館應用" />
+				<Node targetId="ct" text="數位出版" />
+			</Node>
+			<Node id="menuSByProduct" text="依產品選擇" menutype="list">			
+				<Node targetId="ct" text="HySearch 搜尋引擎" />
+				<Node targetId="ct" text="GIP 入口網站開發平台" />
+				<Node targetId="ct" text="GKP 知識入口網平台" />
+				<Node targetId="ct" text="HyLib 圖書館自動化管理" />
+				<Node targetId="ct" text="HyRead eBooks 電子書" />
+			</Node>
+		</Node>
+		<Node id="ctDoneCase" text="成功案例" icon="icon_case.png"/><!--直接指向content-->
+		<Node id="menuInvestor" text="投資人專區" icon="icon_investor.png" menutype="group">
+			<Node id="menuFinancial" text="財務資訊">
+				<Node targetId="ct" text="每月營收" />
+				<Node targetId="ct" text="財務預測" />
+				<Node targetId="ct" text="財務報表" />
+				<Node targetId="ct" text="公司年報" />
+			</Node>
+			<Node id="menuStockInfo" text="股務資訊">
+				<Node targetId="ct" text="股東會" />
+				<Node targetId="ct" text="股價資訊" />
+				<Node targetId="ct" text="股利分派情形" />
+			</Node>
+			<Node id="menuManagement" text="公司治理資訊">
+				<Node targetId="ct" text="公司組織與職掌" />
+				<Node targetId="ct" text="董事會成員" />
+				<Node targetId="ct" text="公司章程" />
+				<Node targetId="ct" text="內部稽核" />
+			</Node>
+		</Node>
+	</Menu>
+</Nav>
